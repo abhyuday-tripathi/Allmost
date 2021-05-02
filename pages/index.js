@@ -25,6 +25,9 @@ export default function Home() {
           <span className='logo'>A!!most </span>
           is a online website where you can find guides about bad words.
         </p>
+        <a href='/guides' className='btn'>
+          Get Started
+        </a>
       </div>
     </div>
   );

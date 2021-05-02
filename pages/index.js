@@ -8,16 +8,8 @@ export default function Home() {
       </h2>
       <div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-          deleniti rem aspernatur odit hic autem neque repellat alias? Debitis
-          veniam inventore ipsum similique quos animi ipsa asperiores fuga dolor
-          id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-          deleniti rem aspernatur odit hic autem neque repellat alias? Debitis
-          veniam inventore ipsum similique quos animi ipsa asperiores fuga dolor
-          id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-          deleniti rem aspernatur odit hic autem neque repellat alias? Debitis
-          veniam inventore ipsum similique quos animi ipsa asperiores fuga dolor
-          id.
+          <span className='logo'>A!!most </span>
+          is a online website where you can find guides about bad words.
         </p>
       </div>
     </div>

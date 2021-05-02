@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div className='container'>
       <nav>
-        <Image src='/rupee.png' width={50} height={48} />
+        <Image src='/favicon.ico' width={40} height={40} />
         <h1 className='logo'>A!!most</h1>
         {authReady && (
           <ul>

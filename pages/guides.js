@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import styles from '../styles/Guides.module.css';
 import AuthContext from '../stores/authContext';
+import Head from 'next/head';
 
 export default function Guides() {
   const { user, authReady, login } = useContext(AuthContext);
@@ -37,6 +38,19 @@ export default function Guides() {
 
   return (
     <div className={styles.guides}>
+      <Head>
+        <title>A!!most - Guides</title>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+        <meta
+          name='description'
+          content='A!!most is a online website where you can find guides about bad words. It is free to Sign Up on.'
+        />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta
+          name='keywords'
+          content='Allmost, A!!most, Profanity, Bad, Words, Online, Website'
+        />
+      </Head>
       {!authReady && <div>Loading...</div>}
 
       {error && (

@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <div className='container'>
       <nav>
-        <Image src='/favicon.ico' width={40} height={40} />
+        <Image src='/logo.png' width={40} height={40} />
         <h1 className='logo'>A!!most</h1>
         {authReady && (
           <ul>
